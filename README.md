@@ -22,13 +22,14 @@ Our model demonstrates strong robustness even under **imbalanced dataset conditi
 ## 📊 Usage
 
 
--FA-Amy relies on a large-scale pre-trained protein language model: ESM C. The model is implemented using Hugging Face's Transformers library and PyTorch. Please make sure to install the required dependencies beforehand.
+FA-Amy relies on a large-scale pre-trained protein language model: ESM C. The model is implemented using Hugging Face's Transformers library and PyTorch. Please make sure to install the required dependencies beforehand.
 
--ESM C: https://huggingface.co/EvolutionaryScale/esmc-600m-2024-12
+ESM C: https://huggingface.co/EvolutionaryScale/esmc-600m-2024-12
 
 First, you need to download the model weights for ESM C  from the provided Hugging Face URLs. Please visit the above links to download the respective weight files.
 
 Save the downloaded weight files in your working directory and make sure you know their exact paths.
 
-Next, you will use the provided `ESM_embedding.py` script to generate embedding features for ESM C. In script, you need to modify the file paths according to your needs.
+Next, you will use the provided `ESM_embedding.py` script to generate embedding features for ESM C. In script, you need to modify the file paths according to your needs.Run the following commands:
+<pre> ```bash python ESM_embedding.py ``` </pre>
 
