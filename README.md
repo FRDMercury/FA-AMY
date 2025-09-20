@@ -5,18 +5,26 @@
 ---
 
 ## 📖 Introduction
-Amyloid proteins are associated with various human diseases, including neurodegenerative disorders.  
-**FA-Amy** is a deep learning-based framework designed to accurately predict amyloid proteins by integrating **global, local, and residual features**.  
+**FA-Amy** is a deep learning-based framework designed to accurately predict amyloid proteins by integrating **global and local features**.  
 Our model demonstrates strong robustness even under **imbalanced dataset conditions**, making it practical for real-world biological applications.
 
 ---
 
 ## 🚀 Features
-- ✅ End-to-end deep learning framework
-- ✅ Incorporates **global + local + residual features**
-- ✅ Robust performance on **imbalanced datasets**
-- ✅ Easy-to-use training and evaluation scripts
+- End-to-end deep learning framework
+- Large learning model extracted features
+- Incorporates **global + local  features**
+- Robust performance on **imbalanced datasets**
+- Easy-to-use training and evaluation scripts
 
 ---
 
-## 📂 Repository Structure
+## 📊 Usage
+
+
+-FA-Amy relies on a large-scale pre-trained protein language model: ESM C. The model is implemented using Hugging Face's Transformers library and PyTorch. Please make sure to install the required dependencies beforehand.
+
+-ESM C: https://huggingface.co/EvolutionaryScale/esmc-600m-2024-12
+
+📊 Usage
+
