@@ -31,5 +31,6 @@ First, you need to download the model weights for ESM C  from the provided Huggi
 Save the downloaded weight files in your working directory and make sure you know their exact paths.
 
 Next, you will use the provided `ESM_embedding.py` script to generate embedding features for ESM C. In script, you need to modify the file paths according to your needs.Run the following commands:
-<pre> ```bash python ESM_embedding.py ``` </pre>
+<pre> ```bash 
+  python ESM_embedding.py </pre>
 
