@@ -26,5 +26,9 @@ Our model demonstrates strong robustness even under **imbalanced dataset conditi
 
 -ESM C: https://huggingface.co/EvolutionaryScale/esmc-600m-2024-12
 
-📊 Usage
+First, you need to download the model weights for ESM C  from the provided Hugging Face URLs. Please visit the above links to download the respective weight files.
+
+Save the downloaded weight files in your working directory and make sure you know their exact paths.
+
+Next, you will use the provided `ESM_embedding.py` script to generate embedding features for ESM C. In script, you need to modify the file paths according to your needs.
 
