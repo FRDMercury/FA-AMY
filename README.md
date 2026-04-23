@@ -19,6 +19,12 @@ Our model demonstrates strong robustness even under **imbalanced dataset conditi
 
 ---
 
+##  Environment
+
+Python Version: 3.9 or higher (Tested on 3.11)
+
+Operating System: Linux
+
 ##  Usage
 
 
