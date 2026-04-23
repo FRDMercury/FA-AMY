@@ -46,3 +46,6 @@ Finally, you can test the model on a independent dataset using the provided `Tes
 The benchmark dataset and the generalization dataset used in this study is included in the `Dataset` folder.
 
 ##  Concat
+
+If you have any questions, suggestions, or collaboration interests, please feel free to reach out:
+**Email:**kasval183@gmail.com
